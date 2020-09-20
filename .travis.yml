@@ -17,7 +17,7 @@ install:
 script:
   - ls
   - cd ./flutterLearning
-  - ./flutter/bin/flutter $COMMAND
+  - ../flutter/bin/flutter $COMMAND
 cache:
   directories:
     - $HOME/.pub-cache
