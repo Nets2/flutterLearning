@@ -11,6 +11,7 @@ addons:
     packages:
       - lib32stdc++6
 install:
+  - cd ..
   - git clone https://github.com/flutter/flutter.git
   - ./flutter/bin/flutter doctor
 script:
